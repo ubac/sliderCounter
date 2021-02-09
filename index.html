@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="navbar-logo">
+          <h2>website</h2>
+        </div>
+        <div class="nav-items">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">FAQ</a></li>
+            <li>
+              <a href="#home" id="home"
+                >Login <i class="fas fa-caret-down"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="wrapper">
+        <div class="backgroundImg">
+          <div class="rightSlider">
+            <div class="sliderCounter">
+              <h2 id="value">10</h2>
+              <input type="range" min="1" max="100" class="slider">
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="logInform">
+          <div class="myflot">
+            <span class="flot"> <i class="fas fa-sign-in-alt logo"></i></span>
+            <span class="loginText">Login</span>
+            <span class="cross">&#10006</span>
+          </div>
+
+          <input
+            type="number"
+            class="login"
+            placeholder="Enter The Mobile Number"
+          />
+          <p class="demotext">text appeared</p>
+          <div class="signUpText">
+            <p>
+              New to website please ?<span style="color: #ea7c1b">
+                Sign-Up</span
+              >
+            </p>
+          </div>
+          <button class="btn">Button Click</button>
+        </div>
+        
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
